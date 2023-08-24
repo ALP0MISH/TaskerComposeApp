@@ -2,6 +2,7 @@ package com.example.composetaskerapp.presentation.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -100,7 +101,8 @@ fun TaskCategoryItem(
                 Text(
                     text = "$count task",
                     style = MaterialTheme.typography.bodyLarge.copy(),
-                    color = Color.Black
+                    color = if (isSystemInDarkTheme()) Color.White
+                    else Color.Black
                 )
             }
         }
