@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ComposeTaskerApp</string>
+    <string name="today">Today\n\n</string>
+    <string name="list">List\n</string>
+    <string name="cencle">Cencle</string>
+    <string name="done">Done</string>
+    <string name="add_task_hint">What do you want to do</string>
+    <string name="personal">Personal</string>
+    <string name="select">select</string>
+    <string name="error_empty_title">Fill in the title</string>
+    <string name="error_empty_color">Fill in the color</string>
+    <string name="error_empty_selectedDate">Fill in the selected Date</string>
+    <string name="error_empty_selectedTime">Fill in the selected Time</string>
+    <string name="error_empty_selectedCategory">Fill in the selected Category</string>
+    <string name="remove_selected_items">Remove selected items</string>
+    <string name="select_all_items">Selact all itams</string>
+    <string name="unselect_items">Unselect items</string>
+    <string name="task">Task</string>
+    <string name="category">Category</string>
+</resources>

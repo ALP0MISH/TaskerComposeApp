@@ -1,0 +1,35 @@
+package com.example.composetaskerapp.domain.models
+
+import java.util.UUID
+
+data class TaskCategory(
+    val id: String,
+    val title: String,
+    val colorCode: String,
+){
+    companion object{
+        val preview = TaskCategory(
+            id = UUID.randomUUID().toString(),
+            title = "Inbox",
+            colorCode = "#B678FF"
+        )
+        val previews = listOf(
+            preview.copy(
+                id = UUID.randomUUID().toString(),
+            ),
+            preview.copy(
+                id = UUID.randomUUID().toString(),
+            ),
+            preview.copy(
+                id = UUID.randomUUID().toString(),
+            ),
+            preview.copy(
+                id = UUID.randomUUID().toString(),
+            ),
+            preview.copy(
+                id = UUID.randomUUID().toString(),
+            ),
+
+        )
+    }
+}
